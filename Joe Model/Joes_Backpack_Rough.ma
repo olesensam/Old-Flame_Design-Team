@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: Joes_Backpack_Rough.ma
-//Last modified: Tue, Oct 13, 2015 03:25:47 PM
+//Last modified: Tue, Oct 13, 2015 03:28:21 PM
 //Codeset: 1252
 requires maya "2016";
 currentUnit -l inch -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "7545F78C-4029-B8D4-1D2F-4A8BBAD0A838";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.59904609176677392 35.966064254925634 -12.541041290862346 ;
-	setAttr ".r" -type "double3" -53.738352737728604 -542.20000000000562 0 ;
+	setAttr ".t" -type "double3" -1.1529597740385529 38.503348837765351 -16.481450116117504 ;
+	setAttr ".r" -type "double3" -51.338352737718267 -530.19999999997822 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FA384D44-49C4-E38E-CB82-56A846B67099";
 	setAttr -k off ".v" no;
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.03937007874015748;
 	setAttr ".fcp" 3937.0078740157478;
 	setAttr ".fd" 1.9685039370078738;
-	setAttr ".coi" 12.121347543353604;
+	setAttr ".coi" 17.720372977534865;
 	setAttr ".ow" 3.9370078740157477;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
