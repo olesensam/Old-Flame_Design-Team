@@ -1,3 +1,5 @@
+1.06 - Missed parenting the Ik feet controls to the feet, fixed that
+
 1.05 - Small efficiency change to arms, restructuring, file cleanup, hierarchy and binding rebuilt
 
 1.04 - Hierarchy changes
