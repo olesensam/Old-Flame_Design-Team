@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: Chairs.ma
-//Last modified: Tue, Jan 19, 2016 09:39:39 AM
+//Name: ChairAlt1.ma
+//Last modified: Tue, Jan 19, 2016 09:40:30 AM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "mentalrayFramebuffer" -nodeType "mentalrayOptions" -nodeType "mentalrayGlobals"
@@ -8,6 +8,7 @@ requires -nodeType "mentalrayFramebuffer" -nodeType "mentalrayOptions" -nodeType
 requires "stereoCamera" "10.0";
 requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
+fileInfo "exportedFrom" "C:/Users/10501354/Documents/Old-Flame_Design-Team/Models/Chairs.ma";
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2016";
 fileInfo "version" "2016";
@@ -17,8 +18,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "A078FE79-409D-77C5-8D16-BA8F3EAB2A2B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 41.619559910950834 14.312159064516896 62.820506749655515 ;
-	setAttr ".r" -type "double3" -14.738352747213563 -1766.1999999996165 9.5686345505808235e-016 ;
+	setAttr ".t" -type "double3" 17.010688564785507 58.232697892016233 45.61681852927159 ;
+	setAttr ".r" -type "double3" -45.338352747562269 -1787.40000000021 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "194F84BD-43DD-21C0-2248-F28366F8CA02";
 	setAttr -k off ".v" no;
@@ -20001,4 +20002,4 @@ connectAttr "brokeLegShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "broke1PivotShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "broke1PivotShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "fallenSeatShape2.iog" ":initialShadingGroup.dsm" -na;
-// End of Chairs.ma
+// End of ChairAlt1.ma
