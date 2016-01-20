@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: airlock.ma
-//Last modified: Thu, Jan 14, 2016 12:53:28 PM
+//Last modified: Thu, Jan 14, 2016 01:49:55 PM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "mentalrayFramebuffer" -nodeType "mentalrayOptions" -nodeType "mentalrayGlobals"
@@ -17,8 +17,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "371D03B8-4465-61FB-4FD2-7FBFFC5A0568";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 69.896303556528991 8.9414484260064224 -24.947539187921532 ;
-	setAttr ".r" -type "double3" 8.061646808547076 -2780.9999999986771 0 ;
+	setAttr ".t" -type "double3" 70.770083675384697 54.197735897282911 -18.345620244532036 ;
+	setAttr ".r" -type "double3" -8.1383531917882408 -2783.3999999984903 0 ;
 	setAttr ".rp" -type "double3" -1.3322676295501878e-015 0 -7.1054273576010019e-015 ;
 	setAttr ".rpt" -type "double3" 3.1192177250659392e-015 -3.3203982763714627e-015 
 		1.0515299744765795e-014 ;
