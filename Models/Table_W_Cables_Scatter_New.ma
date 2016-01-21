@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
-//Name: FancyTable_2-3.ma
-//Last modified: Thu, Jan 21, 2016 12:13:09 PM
+//Name: Table_W_Cables_Scatter_New.ma
+//Last modified: Thu, Jan 21, 2016 12:13:50 PM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "mentalrayFramebuffer" -nodeType "mentalrayOptions" -nodeType "mentalrayGlobals"
@@ -14533,4 +14533,4 @@ connectAttr "pCubeShape9.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape10.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Rock_CTRL.msg" ":hyperGraphLayout.hyp[1].dn";
 connectAttr "FancyTable:group11.msg" ":hyperGraphLayout.hyp[3].dn";
-// End of FancyTable_2-3.ma
+// End of Table_W_Cables_Scatter_New.ma
