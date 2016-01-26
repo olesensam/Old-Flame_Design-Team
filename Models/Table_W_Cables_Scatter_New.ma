@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: Table_W_Cables_Scatter_New.ma
-//Last modified: Tue, Jan 26, 2016 12:29:24 PM
+//Last modified: Tue, Jan 26, 2016 12:40:18 PM
 //Codeset: 1252
 requires maya "2016";
 requires -nodeType "mentalrayFramebuffer" -nodeType "mentalrayOptions" -nodeType "mentalrayGlobals"
@@ -17,8 +17,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "EB70976C-4FA6-1F24-2ADF-C3A7A421A2E8";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -23.844608942670039 13.90113440577375 8.4705191303180492 ;
-	setAttr ".r" -type "double3" 698.66164742187414 -6921.7999999962822 0 ;
+	setAttr ".t" -type "double3" -1.7576178096746808 26.87311427657486 21.897075207490261 ;
+	setAttr ".r" -type "double3" 667.46164742073222 -6858.1999999958998 8.3701269850099061e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "18547A76-4EE5-5B0D-1754-328EE6B2D940";
 	setAttr -k off ".v" no;
