@@ -1,3 +1,6 @@
+1.07 - Many changes. Hierarchy rework, arms completely replaced, neck completely replaced. More accurate head model in place.
+	Known bugs - arm pieces don't follow shoulders with 100% precision, neck pieces, arm balls, and body ball don't 	currently reflect current movement. The movement for everything should be final.
+
 1.06 - Missed parenting the Ik feet controls to the feet, fixed that
 
 1.05 - Small efficiency change to arms, restructuring, file cleanup, hierarchy and binding rebuilt
