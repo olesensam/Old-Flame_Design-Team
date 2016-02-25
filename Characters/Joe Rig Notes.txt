@@ -1,0 +1,1 @@
+1.0 - Body mechanics pretty much done. Right foot has a joint flipping problem. Fingers need weight painted first, the rest needs a lot of fine tuning. Body corrective blendshapes, face rig, body controls and deformers next on the hit list.
