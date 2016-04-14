@@ -1,3 +1,5 @@
+1.1 - Face rig implementation. All blendshapes working, will by making controls follow mesh and adding zip soon.
+
 1.08 - Arm point rotation calculation reworked, will now always move logically. Leg Fk reworked, integrated in for logical blending.
 
 1.07 - Many changes. Hierarchy rework, arms completely replaced, neck completely replaced. More accurate head model in place.
