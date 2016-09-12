@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: chet's new trash crap.ma
-//Last modified: Mon, Sep 12, 2016 12:39:36 PM
+//Name: Nephis new stuff.ma
+//Last modified: Mon, Sep 12, 2016 12:40:01 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -26246,4 +26246,4 @@ connectAttr "groupId31.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId32.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId33.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId34.msg" ":initialShadingGroup.gn" -na;
-// End of chet's new trash crap.ma
+// End of Nephis new stuff.ma
